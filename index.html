@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>segunda  aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/Galaxy-S7-edge-Injustice-Edition-696x391.png','imagenes/plan.png','imagenes/motorola-xt621-ferrari_03.png')">
+<div data-role="page" id="Principal" data-theme="a">
+    <div data-role ="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+      <h1> Telefonia Celular</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">  
+       <h1> CELULAR SAMSUNG</h1>
+         <div>
+           <p> GALAXY EDICION BATMAN</p>
+           <br>
+         </div>
+         <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/Galaxy-S7-edge-Injustice-Edition-696x391.png',1)"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/plan.png',1)"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/Galaxy-S7-edge-Injustice-Edition-696x391.png',1)"><img src="imagenes/Galaxy-S7-edge-batman.png" width="288" height="181" id="Image14"></a></div>
+      </div>
+     </div>
+ <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="false">  
+       <h1> CELULAR MOTOROLA</h1>
+         <div>
+           <p> MOTOROLA EDICION FERRARI</p>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/motorola-xt621-ferrari_03.png',1)"><img src="imagenes/Smartphone-Motorola-XT621-Ferrari-edicion-especial-Nextel-4.png" width="285" height="332" id="Image8"></a><br>
+        </div>
+         <div></div>
+    </div>
+    </div>
+     <div>
+       <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+       <li class="ui-first-child ui-last-child">
+          <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2> DEFINICION</h2>
+           <p>Se muestra la definicion de telefonia celular</p>
+          </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+          <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>HISTORIA </h2>
+           <p> Se muestra la historia de la telefonia celular</p>
+          </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+         <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>CLASIFICACION</h2>
+              <p> Muestra las gamas de clasificacion de un celular</p>
+         </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+          <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>COMPAÑIAS</h2>
+              <p>Muestra las compañias</p>
+           </a>
+       </li>
+      </ul>
+      <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/celularsamsunga3.jpg" alt="celular-samsung-a3" title="celular-samsung-a3" id="wows1_0"/></li>
+		<li><img src="data1/images/galaxy_s6.jpg" alt="galaxy s6" title="galaxy s6" id="wows1_1"/></li>
+		<li><img src="data1/images/galaxys7edgebatman.png" alt="Galaxy-S7-edge-batman" title="Galaxy-S7-edge-batman" id="wows1_2"/></li>
+		<li><img src="data1/images/galaxys7edgeinjusticeedition696x391.png" alt="Galaxy-S7-edge-Injustice-Edition-696x391" title="Galaxy-S7-edge-Injustice-Edition-696x391" id="wows1_3"/></li>
+		<li><img src="data1/images/iphone.png" alt="iphone" title="iphone" id="wows1_4"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/motorolaxt621ferrari_03.png" alt="slider" title="motorola-xt621-ferrari_03" id="wows1_5"/></a></li>
+		<li><img src="data1/images/smartphonemotorolaxt621ferrariedicionespecialnextel4.png" alt="Smartphone-Motorola-XT621-Ferrari-edicion-especial-Nextel-4" title="Smartphone-Motorola-XT621-Ferrari-edicion-especial-Nextel-4" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="celular-samsung-a3"><span><img src="data1/tooltips/celularsamsunga3.jpg" alt="celular-samsung-a3"/>1</span></a>
+		<a href="#" title="galaxy s6"><span><img src="data1/tooltips/galaxy_s6.jpg" alt="galaxy s6"/>2</span></a>
+		<a href="#" title="Galaxy-S7-edge-batman"><span><img src="data1/tooltips/galaxys7edgebatman.png" alt="Galaxy-S7-edge-batman"/>3</span></a>
+		<a href="#" title="Galaxy-S7-edge-Injustice-Edition-696x391"><span><img src="data1/tooltips/galaxys7edgeinjusticeedition696x391.png" alt="Galaxy-S7-edge-Injustice-Edition-696x391"/>4</span></a>
+		<a href="#" title="iphone"><span><img src="data1/tooltips/iphone.png" alt="iphone"/>5</span></a>
+		<a href="#" title="motorola-xt621-ferrari_03"><span><img src="data1/tooltips/motorolaxt621ferrari_03.png" alt="motorola-xt621-ferrari_03"/>6</span></a>
+		<a href="#" title="Smartphone-Motorola-XT621-Ferrari-edicion-especial-Nextel-4"><span><img src="data1/tooltips/smartphonemotorolaxt621ferrariedicionespecialnextel4.png" alt="Smartphone-Motorola-XT621-Ferrari-edicion-especial-Nextel-4"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+     </div>
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+        <div> 
+          <img src="imagenes/iphone.png" width="128" height="128">
+        </div>
+        <div>
+            <h4>Aplicacion Dos</h4>
+            <h4>Kevin Alexis Lopez Campos</h4>
+        </div>
+     </div>
+    </div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1> DEFINICION</h1>
+      </div>
+      <div data-role="content" align="center">
+        <div>
+           <h2>La telefonía móvil o telefonía celular es un medio de comunicación inalámbrico a través de ondas electromagnéticas. Como cliente de este tipo de redes, se utiliza un dispositivo denominado teléfono móvil o teléfono celular.</h2>
+        </div>
+       <div data-role="collapsible" data-content-theme="false">
+         <h1>EJEMPLO 1</h1>
+         <div>
+            <img src="imagenes/img7.png" width="383" height="190" >
+         </div>
+       </div>
+    
+         <div data-role="collapsible" data-content-theme="false">  
+       <h1> EJEMPLO 2</h1>
+         <div>
+            <img src="imagenes/mil-millones-smartphones.png" width="247" height="167" >
+         </div>
+       </div>
+      <div data-role="collapsible" data-content-theme="false">  
+       <h1> EJEMPLO 3</h1>
+         <div>
+            <img src="imagenes/plan.png" width="247" height="167" >
+         </div>
+       </div>
+      </div>
+  <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4>Aplicacion Dos , KALC</h4>
+      </div>
+    </div>
+    
+    
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>HISTORIA</h1>
+      </div> 
+      <DIV data-role="content" align="center">
+         <div>
+           <p>El primer antecedente técnico de la telefonía móvil fueron los servicios de comunicación públicos de radiotelefonía establecidas en algunas ciudades estadounidenses durante los años 19 40. Así, estableció un servicio de ese tipo en la ciudad de San Luis (Misuri)</a> en 1946, que usaba un único transmisor y ofrecía seis canales de transmisión, la popularidad del servicio hizo que rápidamente quedara bloqueado, pero en 1947 AT&T dio con la solución, en lugar de utilizar un único transmisor, creó una red de transmisores de baja potencia, cada uno para un área concreta o "célula" (de ahí derivó el término <em>teléfono celular</em> que en muchos países es la forma de referirse a la telefonía móvil).
+             <p>No hay duda de que llegará el día en que probablemente tanto yo como ustedes habremos sido olvidados, en el que los cables de cobre, hierro y la  que los recubre serán relegados al museo de las antigüedades. Entonces cuando una persona quiera telegrafiar a un amigo, incluso sin saber dónde pueda estar, llamará con una voz electromagnética que será escuchada por aquel que tenga el oído electromagnético, pero que permanecerá silenciosa para todos los demás. Dirá «¿dónde estás?» y la respuesta llegará audible a la persona con el oído electromagnético: «Estoy en el fondo de una mina de carbón, o cruzando los Andes, o en el medio del Pacífico»</p>
+             <div>Ayrton, 1884, p. 548</div>
+           <div data-role="collapsible" data-content-theme="false">
+         <h1>EJEMPLO 1</h1>
+         <div>
+            <img src="imagenes/moviles-progreso.PNG" width="361" height="190" >
+         </div>
+       </div>
+    
+         <div data-role="collapsible" data-content-theme="false">  
+       <h1> EJEMPLO 2</h1>
+         <div>
+            <img src="imagenes/samsung-galaxy-s7-historia.PNG" width="247" height="167" >
+         </div>
+       </div>
+      <div data-role="collapsible" data-content-theme="false">  
+       <h1> EJEMPLO 3</h1>
+         <div>
+            <img src="imagenes/nokia-mobira-talkman1.PNG" width="247" height="167" >
+         </div>
+       </div>
+         </div>
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4>Aplicacion Dos , KALC</h4>
+      </div>
+      </DIV>
+    </div>
+    
+    
+    
+    
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>CLASIFICACION</h1>
+      </div> 
+      <DIV data-role="content" align="center">
+       <div data-role="collapsible" data-content-theme="false">  
+       <h1> GAMA ALTA </h1>
+       <div>
+           <p>La gama alta debe de tener no solo buenas características, sino algún plus, como serían las aplicaciones extras del Galaxy S4, el doble altavoz frontal del HTC One, las fantásticas cámaras de los buque insignia de Nokia y en fin, algo que marque la diferencia, ya que a la hora de rendir será similar a un gama media alta (al ir teóricamente muy bien los de ambos niveles).</p>
+           </div>
+         <div>
+            <img src="imagenes/galaxy s6.PNG" width="600" height="336" >
+         </div>
+       </div>
+        <div data-role="collapsible" data-content-theme="false">  
+       <h1> GAMA MEDIA </h1>
+       <div>
+       <p>Los smartphones de media gama se caracterizan por tener pantallas de calidad, pero de menor tamaño, resolución y profundidad de pixeles por pulgada; en la mayoría de los casos funcionan con una versión anterior a la más actual de su sistema operativo; los procesadores no tienen la potencia de los que encontramos en gamas superiores, y las cámaras y fotográficas generalmente cuentan con menos cantidad de megapíxeles. En esta categoría también situaremos a cierto número de celulares que en su momento fueron considerados de alta gama, pero que se han quedado rezagados por los adelantos que se producen en la telefonía celular. </p>
+       </div>
+         <div>
+            <img src="imagenes/celular-samsung-a3.PNG" width="629" height="472" >
+         </div>
+       </div>
+         <div data-role="collapsible" data-content-theme="false">  
+       <h1> GAMA BAJA</h1>
+       <div>
+       <p>En esta categoría distribuiremos los celulares inteligentes con plataformas que no dan soporte a muchas utilidades que tienen los teléfonos de otras gamas. Sus pantallas son de escasas dimensiones y resolución, poca memoria RAM y mínima capacidad de almacenamiento interno, cámaras VGA (no llegan al Megapíxel), menores herramientas, acceso a redes y aplicaciones, entre otros aspectos. Se diferencian de los teléfonos básicos (no inteligentes), por el hecho de permitir funcionalidades que van más allá de llamar y recibir llamadas. La clave de todo es que los smartphones trabajan con un sistema operativo informático móvil, dotado de una interfaz para el acceso a Internet, cuentas de correo electrónico y el ingreso de datos a través de un teclado QWERTY. Permiten instalación de programas, la lectura de documentos en distintos formatos y te ayudan a realizar tareas y organizar tus archivos personales.</p>
+       </div>
+         <div>
+            <img src="imagenes/14857.PNG" width="247" height="167" >
+         </div>
+       </div>
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4>Aplicacion Dos , KALC</h4>
+      </div>
+      </DIV>
+    </div>
+    
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>COMPAÑIAS  DE CELULARES</h1>
+      
+  </div>
+<div data-role="collapsible" data-content-theme="false">
+           <h1>AT&t</h1>
+           <div>
+           <p>American Telephone and Telegraph Corporation (Corporación Estadounidense de Teléfono y Telégrafo) comenzó con el propósito de manejar la última red telefónica a larga distancia de los Estados Unidos (3 de marzo de 1885). Comenzando en Nueva York, la red se extendió a Chicago en 1892, y a San Francisco en 1915. Dejó de proveer servicios transatlánticos en 1927 utilizando radios, ya que el primer cable telefónico submarino transatlántico no llegó hasta 1956.
+
+La creación de la Bell Telephone Company fue consecuencia de un acuerdo entre Alexander Graham Bell y sus socios, entre ellos Gardiner G. Hubbard y Thomas Sanders. Su nombre fue cambiado en varias ocasiones, y ya para 1880 se la conocía como la American Bell Telephone Company. Para 1881, la American Bell había comprado de parte de Western Union un interés mayoritario de la compañía Western Electric. Como dato interesante, tres años antes de que esto ocurriera, Western Union había rechazado una oferta de Gardiner Hubbard, en la cual les ofrecía los derechos sobre el teléfono por un coste de $100 000.
+
+La patente de Bell sobre el teléfono expiró en 1894, pero la compañía logró "controlar" a la competencia por medio de demandas y corte de precios. El 30 de diciembre de 1899, la American Telephone and Telegraph Corporation compró los activos de American Bell, creando así un monopolio telefónico en los Estados Unidos. Fue conocido como el Sistema Bell debido a que Bell había adquirido en años anteriores distintas compañías a las que había otorgado licencias para producir equipo telefónico.</P></div>
+          <a href="https://www.att.com.mx/index.html?gclid=CIj2_YXpjdMCFQ61wAodTJkCEQ&gclsrc=aw.ds" target="_self"><img src="imagenes/0UmCa1Ln.png" width="15%" height="18%" ></a>
+         </div>    
+      
+   <div data-role="collapsible" data-content-theme="false" >
+           <h1>TELCEL</h1>
+           <div>
+           <p>En 2012, Telcel contaba con poco más de sesenta y cinco millones de usuarios y mantiene concesiones para operar en las 9 regiones de México, cubriendo más de ciento noventa mil poblaciones del país, a través de su cobertura 3G y GSM. La banda TDMA en 800 MHz será paulatinamente desactivada, ya que es el mínimo de usuarios que tienen esa banda actualmente.
+
+La tecnología 3G/UMTS de Telcel ofrece enlaces de banda ancha móviles de hasta 1.5 Mbps por segundo, servicio de videollamada, televisión en vivo y video en streaming, además de servicios de Banda Ancha Móvil y telefonía fija con chip. Adicionalmente ofrece venta de música a través de Ideas Music Store y además cuenta con la mayor red de tecnología entre todas sus marcas de teléfonos celulares como: Alcatel, Sony, Sony Ericsson, Skyzen, LG, Samsung, Zonda Telecom, Huawei, Apple, Palm, Nokia, Motorola, entre otros.
+
+En marzo de 2016 Telcel y AT&T ganan licitación de espectro de la banda de frecuencias 1710-1780 MHz/2110-2180 MHz (Banda AWS).</p></div>
+           <a href="http://www.telcel.com/" target="_self">
+           <img src="imagenes/hP_WoWZi.png" width="252" height="184">
+           </a>
+     </div>
+      <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4>Aplicacion Dos , KALC</h4>
+      </div>
+      
+<div data-role="collapsible" data-content-theme="false" >
+  <h1>UNEFON</h1>
+           <div>
+           <p>En  Unefón , siendo una compañía propiedad de Grupo Salinas comienza operaciones con base en la banda A PCS por 30  en la Cudad de Méxicoa,su eslogan era <em>Une tu mundo.Al igual que todas las compañías de Grupo Salinas</a>, Unefón estaba enfocada en el sector popular de la población al ser la primera empresa que manejaba la tarifa de $1.0 MXNa varios destinos. También fue la primera empresa que usaba una red totalmente digital.
+           En 1999 es reestructurada la compañía, siendo comprado el 50% de las acciones por Moisés Saba. En ese año la firma canadiense  financia el suministro y construcción de su red.</p>
+           </div>
+           <a href="https://www.unefon.com.mx/?gclid=CJXD76HrjdMCFUMcaQod4wgLBA&gclsrc=aw.ds" target="_self">
+           <img src="imagenes/unefon-soporte-tecnico-e1362024678113.png" width="252" height="184">
+         </a>
+     </div>
+ <div data-role="collapsible" data-content-theme="false" >
+  <h1>MOVISTAR</h1>
+           <div>
+           <p>En 1995, Telefónica de España segregó el negocio de telefonía móvil, mediante una empresa independiente a su matriz, Telefónica Móviles. La nueva compañía, prestaba servicios de telefonía móvil analógica (AMPS), bajo el nombre de Moviline.
+
+Movistar tiene su origen en la marca comercial con la que Telefónica Móviles comenzó a operar el servicio de telefonía móvil digital (GSM), el 25 de julio de 1995. Esta tecnología comenzó sus pruebas en España durante la Exposición Universal de Sevilla y las Olimpiadas de Barcelona de 1992, a través de la filial Telefónica Servicios Uno (TS1).
+
+Tras un periodo de convivencia de ambas tecnologías, analógica (Moviline) y digital (Movistar), se extingue finalmente la firma Moviline el 31 de diciembre de 2003, quedando únicamente la telefonía móvil digital de Movistar.2
+</p>
+           </div>
+           <a href="http://www.movistar.com.mx/" target="_self">
+           <img src="imagenes/descarga.png" width="252" height="184">
+         
+     </a>
+     <div data-role="footer" data-theme="b" data-position="fixed">
+        <h4>Aplicacion Dos , KALC</h4>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
